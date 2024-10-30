@@ -4,8 +4,8 @@ var router = express.Router();
 
 /* GET users listing. */
 router.get('/', function(req, res, next) {
-  let x=req.query.x ? parseFloat(req.query.x):Math.random();
-  let y=req.query.y ? parseFloat(req.query.y):Math.random();
+  let x=Math.random();
+  let y=Math.random();
   let a="Math.pow";
   let b="Math.sign";
   let c="Math.tanh";
